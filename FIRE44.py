@@ -1655,7 +1655,7 @@ ___________________________________________+
  FACEBOOK   : [Hancy.FFX]
  TOOLS     \033[1;97m : \x1b[97m\033[37;41m PAID\033[0;m
  VERSION    : \033[1;36m1.1 \033[1;37m
- किने हो भने Rs 300 Payment Method Esewa 
+ RS 300 FOR PAID PAYMENT METHOD ESEWA 
 -----------------------------------------------"""   
 meyermarexudi =("""""")    
 alltimexudi =(""" \033[32;1m[-]""")
@@ -1704,7 +1704,7 @@ while attemps < 12345677901:
     username = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER USERNAME: ')
     password = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER PASSWORD: ')
 
-    if username == 'HANCY' and password == 'Dolakha@123':
+    if username == 'HANCY' and password == 'Brand@123':
         print(' ')
         break
     else:
@@ -1890,34 +1890,35 @@ def passwrd():
                 if len(frs)<3:
                     pass
                 else:                
-                    pwv.append(frs+'12')
+                    pwv.append(freefire+'12')
                     pwv.append(frs+'123')
                     pwv.append(frs+'1234')
                     pwv.append(frs+'12345')
                     pwv.append(nmf)
-                    pwv.append(frs+'@123')
-                    pwv.append(frs+'@1234')
+                    pwv.append(freefire+'@123')
+                    pwv.append(freefire+'@1234')
                     pwv.append(frs+'@12345')
                     pwv.append(frs+'@@@')
                     pwv.append(frs+'@#')
                     pwv.append(frs+'123@')
-                                                
+                    pwv.append(freefire+'123@                      
             else:
                 if len(frs)<3:
                     pwv.append(nmf)
                 else:
-                    pwv.append(frs+'12')
+                    pwv.append(freefire+'12')
                     pwv.append(frs+'123')
                     pwv.append(frs+'1234')
                     pwv.append(frs+'12345')
                     pwv.append(nmf)
-                    pwv.append(frs+'@123')
-                    pwv.append(frs+'@1234')
+                    pwv.append(freefire+'@123')
+                    pwv.append(freefire+'@1234')
                     pwv.append(frs+'@12345')
                     pwv.append(frs+'@@@')
                     pwv.append(frs+'@#')
                     pwv.append(frs+'123@')
-                                        
+                    pwv.append(freefire+'123@  
+		    
             if 'ya' in pwpluss:
                 for xpwd in pwnya:
                     pwv.append(xpwd)
