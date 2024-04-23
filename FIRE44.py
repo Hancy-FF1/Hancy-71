@@ -1887,11 +1887,11 @@ def passwrd():
             frs = nmf.split(' ')[0]
             pwv = []
             if len(nmf)<6:
-                if len(frs)<3:
+                if len(freefire)<3:
                     pass
                 else:                
-                    pwv.append(frs+'12')
-                    pwv.append(frs+'123')
+                    pwv.append(freefire+'12')
+                    pwv.append(freefire+'123')
                     pwv.append(frs+'1234')
                     pwv.append(frs+'12345')
                     pwv.append(nmf)
@@ -1906,8 +1906,8 @@ def passwrd():
                 if len(frs)<3:
                     pwv.append(nmf)
                 else:
-                    pwv.append(frs+'12')
-                    pwv.append(frs+'123')
+                    pwv.append(freefire+'12')
+                    pwv.append(freefire+'123')
                     pwv.append(frs+'1234')
                     pwv.append(frs+'12345')
                     pwv.append(nmf)
