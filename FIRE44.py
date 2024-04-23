@@ -1,4 +1,4 @@
-#-----------------[ MR-TAREK ]Hancy---------
+#----------------#[ MR-Hancy----------------#
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
@@ -1557,11 +1557,11 @@ N = '\x1b[0m'
 Z = "\033[1;30m"
 sir = '\033[41m\x1b[1;97m'
 x = '\33[m' # DEFAULT
-m = '\x1b[1;91m' #RED +
+m = '\x1b[1;91m' # + PINK
 k = '\033[93m' # KUNING +
 h = '\x1b[1;92m' # HIJAU +
 hh = '\033[32m' # HIJAU -
-u = '\033[95m' # UNGU
+u = '\033[95m' # BLUE
 kk = '\033[33m' # KUNING -
 b = '\33[1;96m' # BIRU -
 p = '\x1b[0;34m' # BIRU +
@@ -1574,27 +1574,27 @@ M = "\x1b[38;5;196m" # Merah
 H = "\x1b[38;5;46m"  # Hijau
 K = "\x1b[38;5;226m" # Kuning
 B = "\x1b[38;5;44m"  # Biru
-U = "\x1b[0;95m"     # Ungu
-O = "\x1b[0;96m"     # Biru Muda
-P = "\x1b[38;5;231m" # Putih
-J = "\x1b[38;5;208m" # Jingga
-A = "\x1b[38;5;248m" # Abu-Abu
+U = "\x1b[0;95m"     # WHITE
+O = "\x1b[0;96m"     # PINK
+P = "\x1b[38;5;231m" # BLUE
+J = "\x1b[38;5;208m" # YELLOW
+A = "\x1b[38;5;248m" # RED
  
 ###----------[ RICH COLOR STYLE ]---------- ###
  
-Z2 = "[#000000]" # Hitam
-M2 = "[#FF0000]" # Merah
-H2 = "[#00FF00]" # Hijau
-K2 = "[#FFFF00]" # Kuning
+Z2 = "[#000000]" # Hancy
+M2 = "[#FF0000]" # Roshsn
+H2 = "[#00FF00]" # Prabesh
+K2 = "[#FFFF00]" # Nishan
 B2 = "[#00C8FF]" # Biru
-U2 = "[#AF00FF]" # Ungu
+U2 = "[#AF00FF]" # Arpan
 N2 = "[#FF00FF]" # Pink
 O2 = "[#00FFFF]" # Biru Muda
 P2 = "[#FFFFFF]" # Putih
 J2 = "[#FF8F00]" # Jingga
 A2 = "[#AAAAAA]" # Abu-Abu
  
-#--------------------[ CONVERTER-BULAN ]--------------#
+#--------------------[ CONVERTER-BLUE]--------------#
  
 dic = {'1':'January','2':'February','3':'March','4':'April','5':'May','6':'June','7':'July','8':'August','9':'September','10':'October','11':'November','12':'December'}
 dic2 = {'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'August','09':'September','10':'October','11':'November','12':'Devember'}
@@ -1655,7 +1655,6 @@ ___________________________________________+
  FACEBOOK   : [Hancy.FFX]
  TOOLS     \033[1;97m : \x1b[97m\033[37;41m PAID\033[0;m
  VERSION    : \033[1;36m1.1 \033[1;37m
- RS 300 FOR PAID PAYMENT METHOD ESEWA 
 -----------------------------------------------"""   
 meyermarexudi =("""""")    
 alltimexudi =(""" \033[32;1m[-]""")
@@ -1704,7 +1703,7 @@ while attemps < 12345677901:
     username = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER USERNAME: ')
     password = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER PASSWORD: ')
 
-    if username == 'HANCY' and password == 'Brand@123':
+    if username == 'HANCY' and password == 'Dolakha@123':
         print(' ')
         break
     else:
@@ -1887,11 +1886,11 @@ def passwrd():
             frs = nmf.split(' ')[0]
             pwv = []
             if len(nmf)<6:
-                if len(freefire)<3:
+                if len(frs)<3:
                     pass
                 else:                
-                    pwv.append(freefire+'12')
-                    pwv.append(freefire+'123')
+                    pwv.append(frs+'12')
+                    pwv.append(frs+'123')
                     pwv.append(frs+'1234')
                     pwv.append(frs+'12345')
                     pwv.append(nmf)
@@ -1903,11 +1902,11 @@ def passwrd():
                     pwv.append(frs+'123@')
                                                 
             else:
-                 if len(freefire)<3:
-            pwv.append(nmf)
+                if len(frs)<3:
+                    pwv.append(nmf)
                 else:
-                    pwv.append(freefire+'12')
-                    pwv.append(freefire+'123')
+                    pwv.append(frs+'12')
+                    pwv.append(frs+'123')
                     pwv.append(frs+'1234')
                     pwv.append(frs+'12345')
                     pwv.append(nmf)
@@ -1916,8 +1915,8 @@ def passwrd():
                     pwv.append(frs+'@12345')
                     pwv.append(frs+'@@@')
                     pwv.append(frs+'@#')
-                    pwv.append(frs+'123@') 
-		    
+                    pwv.append(frs+'123@')
+                                        
             if 'ya' in pwpluss:
                 for xpwd in pwnya:
                     pwv.append(xpwd)
