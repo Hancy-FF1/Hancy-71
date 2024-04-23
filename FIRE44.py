@@ -1887,7 +1887,6 @@ def passwrd():
             frs = nmf.split(' ')[0]
             pwv = []
             if len(nmf)<6:
-                if len(frs)<3:
                 if len(freefire)<3:
                     pass
                 else:                
