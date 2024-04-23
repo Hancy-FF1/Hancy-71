@@ -1903,7 +1903,6 @@ def passwrd():
                     pwv.append(frs+'123@')
                                                 
             else:
-                if len(frs)<3:
                 if len(freefire)<3:
             pwv.append(nmf)
                 else:
